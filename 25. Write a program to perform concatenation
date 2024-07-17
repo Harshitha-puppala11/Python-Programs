@@ -1,0 +1,4 @@
+x="Python is easy"
+y=" to learn"
+z=x+y
+print(z)
