@@ -1,0 +1,6 @@
+str1="The Inbox is Empty"
+count=0
+vowels="aeiouAEIOU"
+for vowels in 'str1':
+    count=count+1
+print(count)
