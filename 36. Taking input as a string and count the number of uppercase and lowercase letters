@@ -1,0 +1,10 @@
+str1="HelloWORLD"
+lower=0
+upper=0
+for i in str1:
+    if(i.islower()):
+        lower=lower+1
+    else:
+        upper=upper+1
+print("lowercase letters are:",lower)
+print("uppercase letters are:",upper)
