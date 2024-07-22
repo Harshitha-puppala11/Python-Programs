@@ -1,0 +1,10 @@
+from itertools import permutations
+from itertools import combinations
+print("Permutations")
+perm=permutations([1,2,3])
+for i in list(perm):
+    print(i)
+print("Combinations")
+comb=combinations([1,2,3],2)
+for j in list(comb):
+    print(j)
