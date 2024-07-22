@@ -1,0 +1,8 @@
+def check(s1,s2):
+    if sorted(s1)==sorted(s2):
+        print("Strings are anagram")
+    else:
+        print("Strings are not anagram")
+s1="listen"
+s2="silent"
+print(check(s1,s2))
